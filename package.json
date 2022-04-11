@@ -1,0 +1,27 @@
+{
+  "name": "my-demo-template",
+  "version": "1.0.0",
+  "description": "my template",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch:pug || npm run watch:scss",
+    "scss":"sass --watch .",
+    "pug": "pug -w ./pages --out ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viramatiiash/my-template.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Vira Matiiash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viramatiiash/my-template/issues"
+  },
+  "homepage": "https://github.com/viramatiiash/my-template#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
